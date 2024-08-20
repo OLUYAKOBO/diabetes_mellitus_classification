@@ -23,6 +23,7 @@ The dataset consists of detailed health records of different individuals such as
 The model demonstrated a high accuracy rate on the test data, with strong precision and recall scores.
 These results suggest that the model is reliable for early detection of diabetes.
 Feature importance analysis highlighted key medical attributes that significantly contribute to the prediction, offering valuable insights for healthcare professionals.
+This model was deployed into a web application. Here is the link to the web app: https://diabetesmellitusclassification.streamlit.app/
 
 
 **Future Work**
