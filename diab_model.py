@@ -10,7 +10,7 @@ encoder = pickle.load(open ('encoder.pkl', "rb"))
 
 st.title('*Diabetes Mellitus Prediction*')
     
-def predict():
+def preprocess():
     c1,c2 = st.columns(2)
     with(c1):
         Age = st.number_input('*Please input your age*')
@@ -44,7 +44,7 @@ def predict():
         
         return df
         
-df = predict()
+df = preprocess()
 def preprocessing():
     
     df1 = df.copy()
